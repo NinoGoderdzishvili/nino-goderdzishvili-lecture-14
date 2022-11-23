@@ -38,8 +38,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         let nextTag = textField.tag + 1
-        
-        print("nextTag: \(nextTag)")
 
         if let nextResponder = textField.superview?.viewWithTag(nextTag) {
             nextResponder.becomeFirstResponder()
@@ -77,14 +75,6 @@ class ViewController: UIViewController, UITextFieldDelegate {
         persons.append(person)
         
         personsTV.reloadData()
-    }
-    
-    public func showAlert(message: String) {
-        let alert = UIAlertController(title: "შეცდომა", message: message, preferredStyle: .alert)
-        
-        alert.addAction(UIAlertAction(title: "OK", style: .cancel))
-        
-        present(alert, animated: true)
     }
 }
 
