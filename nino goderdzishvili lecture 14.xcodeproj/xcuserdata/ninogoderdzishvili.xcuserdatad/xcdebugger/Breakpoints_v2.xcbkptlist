@@ -7,22 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "BD8BEC30-94C2-417E-BCA0-011A9E057B22"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "addPerson()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "C62B0BDA-468B-425B-901E-3359338E3D9B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -30,8 +14,8 @@
             filePath = "nino goderdzishvili lecture 14/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "220"
+            endingLineNumber = "220"
             landmarkName = "addPerson()"
             landmarkType = "7">
          </BreakpointContent>
@@ -40,16 +24,488 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0A8412DD-2646-4957-BB2C-CAEC3C9B836D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "221"
+            endingLineNumber = "221"
+            landmarkName = "addPerson()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B5D355C0-CA25-4CD2-B2DA-F9C9A700505A"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nino goderdzishvili lecture 14/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "70"
-            endingLineNumber = "70"
-            landmarkName = "addPerson()"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "fillPersonsByAge()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "544544AC-F0B6-41F0-B66C-A3363F920ACC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fillPersonsByAge()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - 1e81d2e359813b77"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.under_18.getter : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - 80cfc7d850537743"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.under_18.setter : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - 8b72d92a0047b874"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.under_18.modify : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - 67ab73a2d09c6a35"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.under_18.modify : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - 6caaea323c50c48c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; nino_goderdzishvili_lecture_14.ViewController"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "A6C92F01-2694-4661-ADD9-295DB97948BF - bbe3e16df687cb40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;nino_goderdzishvili_lecture_14.ViewController&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "236">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - d1f3cb0a758662"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.over_18.getter : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - 111f9704fd30326e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.over_18.setter : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - 879870b6cf020361"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.over_18.modify : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - 8429ae06991bca15"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.over_18.modify : Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - 6caaea323c50c4ad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; nino_goderdzishvili_lecture_14.ViewController"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "45CE181E-10AE-48F0-B787-D4EF72FACA6A - bbe3e16df687cb61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;nino_goderdzishvili_lecture_14.ViewController&gt;"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F01E5297-B91C-46FD-88FD-099DC7CBF727"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "325"
+            endingLineNumber = "325"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BA531E0-01E8-43A4-8AAB-2686FFE95296"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "326"
+            endingLineNumber = "326"
+            landmarkName = "tableView(_:viewForHeaderInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA5722F7-9CDD-4BB1-AA53-E73B57A558D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "266"
+            endingLineNumber = "266"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B2DBBB5-DCF9-408C-AE33-2FE830111569"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "fillPersonsByAge()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE6001D2-B817-4F9D-8ECE-2D5B68E8FC6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A68E5E0-7E02-4F6B-9D97-8A4DCB562B9A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "188"
+            endingLineNumber = "188"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "ECB3AFBA-E628-499A-929C-1973E7EB3CE6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC2D217A-1623-44DE-9621-8812EC5FE569"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FC2D217A-1623-44DE-9621-8812EC5FE569 - 13bb959d81de29e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.filterBtn(Any) -&gt; ()"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "532">
+               </Location>
+               <Location
+                  uuid = "FC2D217A-1623-44DE-9621-8812EC5FE569 - c0bbbf09332c03cc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;) -&gt; Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt; in nino_goderdzishvili_lecture_14.ViewController.filterBtn(Any) -&gt; ()"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "671C07AC-5C73-44E0-8132-4509372BC9F9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "177"
+            endingLineNumber = "177"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1766EDE3-B492-458D-B968-35B4E41073E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nino goderdzishvili lecture 14/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "filterBtn(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1766EDE3-B492-458D-B968-35B4E41073E9 - 13bb959d81de2d2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "nino_goderdzishvili_lecture_14.ViewController.filterBtn(Any) -&gt; ()"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "1766EDE3-B492-458D-B968-35B4E41073E9 - c0bbbf09332c070b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt;) -&gt; Swift.Array&lt;nino_goderdzishvili_lecture_14.Person&gt; in nino_goderdzishvili_lecture_14.ViewController.filterBtn(Any) -&gt; ()"
+                  moduleName = "nino goderdzishvili lecture 14"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ninogoderdzishvili/Desktop/nino%20goderdzishvili%20lecture%2014/nino%20goderdzishvili%20lecture%2014/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "153"
+                  endingLineNumber = "153"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

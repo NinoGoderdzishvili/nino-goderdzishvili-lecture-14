@@ -17,15 +17,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="dN7-GW-WCQ">
-                                <rect key="frame" x="16" y="334" width="361" height="475"/>
+                                <rect key="frame" x="16" y="456" width="361" height="353"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonCV" rowHeight="134" id="2hd-Qa-upw" customClass="PersonCV" customModule="nino_goderdzishvili_lecture_14" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="361" height="134"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PersonCV" rowHeight="156" id="2hd-Qa-upw" customClass="PersonCV" customModule="nino_goderdzishvili_lecture_14" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="361" height="156"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2hd-Qa-upw" id="MbK-Aa-zSe">
-                                            <rect key="frame" x="0.0" y="0.0" width="361" height="134"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="361" height="156"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h9c-sy-fUy">
@@ -67,10 +67,17 @@
                                                         <action selector="showAge:" destination="2hd-Qa-upw" eventType="touchUpInside" id="UD2-cG-um8"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rPG-Kn-TeR">
+                                                    <rect key="frame" x="12" y="130" width="42" height="26"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="U4G-Jn-WTL" secondAttribute="trailing" constant="8" id="AMe-D9-psW"/>
                                                 <constraint firstItem="h9c-sy-fUy" firstAttribute="leading" secondItem="MbK-Aa-zSe" secondAttribute="leading" constant="12" id="AQF-dE-AAo"/>
+                                                <constraint firstItem="rPG-Kn-TeR" firstAttribute="top" secondItem="f15-c6-ci0" secondAttribute="bottom" constant="19" id="Gvy-81-QNb"/>
                                                 <constraint firstItem="f15-c6-ci0" firstAttribute="leading" secondItem="MbK-Aa-zSe" secondAttribute="leading" constant="12" id="MXW-Qx-05b"/>
                                                 <constraint firstItem="1s5-OY-cpk" firstAttribute="top" secondItem="h9c-sy-fUy" secondAttribute="bottom" constant="19" id="McO-7D-Csn"/>
                                                 <constraint firstItem="1s5-OY-cpk" firstAttribute="leading" secondItem="MbK-Aa-zSe" secondAttribute="leading" constant="12" id="MzT-SX-Qq0"/>
@@ -78,12 +85,14 @@
                                                 <constraint firstItem="U4G-Jn-WTL" firstAttribute="top" secondItem="MbK-Aa-zSe" secondAttribute="top" constant="4" id="iFg-Bt-hQu"/>
                                                 <constraint firstItem="h9c-sy-fUy" firstAttribute="top" secondItem="MbK-Aa-zSe" secondAttribute="top" constant="10" id="nUf-CA-Cg5"/>
                                                 <constraint firstItem="f15-c6-ci0" firstAttribute="top" secondItem="1s5-OY-cpk" secondAttribute="bottom" constant="19" id="sCz-bP-GLt"/>
+                                                <constraint firstItem="rPG-Kn-TeR" firstAttribute="leading" secondItem="MbK-Aa-zSe" secondAttribute="leading" constant="12" id="yNM-ld-Wsp"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="ageLabel" destination="f15-c6-ci0" id="CbM-YM-3uz"/>
                                             <outlet property="firstNameLabel" destination="h9c-sy-fUy" id="OBf-cm-uvI"/>
                                             <outlet property="lastNameLabel" destination="1s5-OY-cpk" id="CGU-o7-txH"/>
+                                            <outlet property="nationalityLabel" destination="rPG-Kn-TeR" id="s8D-BA-ecP"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -104,7 +113,7 @@
                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dcq-UZ-C63">
-                                <rect key="frame" x="133" y="269" width="127" height="35"/>
+                                <rect key="frame" x="16.000000000000007" y="275" width="104.66666666666669" height="34"/>
                                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="დამატება">
@@ -114,28 +123,92 @@
                                     <action selector="addPersonBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PE3-sj-Xpf"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ეროვნება" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BLV-PB-avc">
+                                <rect key="frame" x="16" y="212" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kpM-Px-cDO">
+                                <rect key="frame" x="136.66666666666666" y="275" width="135.99999999999997" height="35"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ასაკი"/>
+                                <connections>
+                                    <action selector="sortByAge:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GhO-pT-Y6w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iu1-XC-qil">
+                                <rect key="frame" x="288.66666666666669" y="275" width="88.333333333333314" height="34"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ქვეყანა"/>
+                                <connections>
+                                    <action selector="sortByCountry:" destination="BYZ-38-t0r" eventType="touchUpInside" id="boy-c8-LnR"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="სრულწლოვანი/არასრულწლოვანი" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cAD-Yv-QeN">
+                                <rect key="frame" x="16" y="329" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ქვეყანა" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fy6-Es-OKG">
+                                <rect key="frame" x="16" y="371" width="361" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2sH-56-92R">
+                                <rect key="frame" x="16" y="413" width="97" height="35"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemMintColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="ფილტრი"/>
+                                <connections>
+                                    <action selector="filterBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G2a-GG-P4R"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemMintColor"/>
                         <constraints>
+                            <constraint firstItem="2sH-56-92R" firstAttribute="top" secondItem="Fy6-Es-OKG" secondAttribute="bottom" constant="8" symbolic="YES" id="7pr-XK-iaw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sR0-BP-gBw" secondAttribute="trailing" constant="16" id="8J0-h8-VWS"/>
-                            <constraint firstItem="dcq-UZ-C63" firstAttribute="top" secondItem="aOz-f1-Nis" secondAttribute="bottom" constant="65" id="NmV-af-EFN"/>
+                            <constraint firstItem="2sH-56-92R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="As5-9f-OUv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BLV-PB-avc" secondAttribute="trailing" constant="16" id="DNX-c0-2KC"/>
+                            <constraint firstItem="iu1-XC-qil" firstAttribute="leading" secondItem="kpM-Px-cDO" secondAttribute="trailing" constant="16" id="DTa-vx-qaP"/>
+                            <constraint firstItem="dcq-UZ-C63" firstAttribute="top" secondItem="BLV-PB-avc" secondAttribute="bottom" constant="29" id="Kbc-MK-dRU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2sH-56-92R" secondAttribute="trailing" constant="280" id="N22-GA-bjO"/>
+                            <constraint firstItem="BLV-PB-avc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="NOL-PV-vLS"/>
+                            <constraint firstItem="Fy6-Es-OKG" firstAttribute="top" secondItem="cAD-Yv-QeN" secondAttribute="bottom" constant="8" symbolic="YES" id="NjF-fb-DE0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wwU-ba-hau" secondAttribute="trailing" constant="16" id="PJR-Ug-WWa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fy6-Es-OKG" secondAttribute="trailing" constant="16" id="PVe-D9-3xS"/>
                             <constraint firstItem="sR0-BP-gBw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="RtS-uF-FD9"/>
                             <constraint firstItem="wwU-ba-hau" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Vuo-BB-z8q"/>
-                            <constraint firstItem="dcq-UZ-C63" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="133" id="VyN-9R-gbI"/>
+                            <constraint firstItem="Fy6-Es-OKG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ZWA-xD-9P4"/>
+                            <constraint firstItem="kpM-Px-cDO" firstAttribute="leading" secondItem="dcq-UZ-C63" secondAttribute="trailing" constant="16" id="amY-Ta-cRB"/>
+                            <constraint firstItem="iu1-XC-qil" firstAttribute="top" secondItem="BLV-PB-avc" secondAttribute="bottom" constant="29" id="brq-qG-mOa"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cAD-Yv-QeN" secondAttribute="trailing" constant="16" id="eFv-E0-0dm"/>
+                            <constraint firstItem="cAD-Yv-QeN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="elk-ss-NZc"/>
+                            <constraint firstItem="kpM-Px-cDO" firstAttribute="top" secondItem="BLV-PB-avc" secondAttribute="bottom" constant="29" id="ff7-wa-Fe8"/>
                             <constraint firstItem="aOz-f1-Nis" firstAttribute="top" secondItem="sR0-BP-gBw" secondAttribute="bottom" constant="8" symbolic="YES" id="gNq-wi-8DS"/>
                             <constraint firstItem="aOz-f1-Nis" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="jn2-zC-5lH"/>
+                            <constraint firstItem="dcq-UZ-C63" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="lZ9-g9-QFb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="iu1-XC-qil" secondAttribute="trailing" constant="16" id="n9X-Eu-SI3"/>
+                            <constraint firstItem="BLV-PB-avc" firstAttribute="top" secondItem="aOz-f1-Nis" secondAttribute="bottom" constant="8" symbolic="YES" id="oOs-dN-QkP"/>
                             <constraint firstItem="wwU-ba-hau" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="oSH-XZ-qxc"/>
                             <constraint firstItem="sR0-BP-gBw" firstAttribute="top" secondItem="wwU-ba-hau" secondAttribute="bottom" constant="8" symbolic="YES" id="qc5-ar-K9y"/>
+                            <constraint firstItem="cAD-Yv-QeN" firstAttribute="top" secondItem="kpM-Px-cDO" secondAttribute="bottom" constant="19" id="qxX-fI-Z67"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aOz-f1-Nis" secondAttribute="trailing" constant="16" id="wby-mA-XAP"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dcq-UZ-C63" secondAttribute="trailing" constant="133" id="y1e-OI-rML"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="adultOrOverAgeTF" destination="cAD-Yv-QeN" id="lJT-Ce-F2j"/>
                         <outlet property="ageTF" destination="aOz-f1-Nis" id="dT9-eS-DL4"/>
+                        <outlet property="countryTF" destination="Fy6-Es-OKG" id="taT-6U-bAU"/>
                         <outlet property="firstNameTF" destination="wwU-ba-hau" id="7Ed-Uf-qzW"/>
                         <outlet property="lastNameTF" destination="sR0-BP-gBw" id="uv5-nW-fTU"/>
+                        <outlet property="nationalityTF" destination="BLV-PB-avc" id="oEn-jR-jVs"/>
                         <outlet property="personsTV" destination="dN7-GW-WCQ" id="Y75-dU-oLw"/>
                     </connections>
                 </viewController>

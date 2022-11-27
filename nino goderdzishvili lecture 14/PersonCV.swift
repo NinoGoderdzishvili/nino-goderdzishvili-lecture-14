@@ -14,6 +14,7 @@ class PersonCV: UITableViewCell {
     @IBOutlet weak var firstNameLabel: UILabel!
     @IBOutlet weak var lastNameLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
+    @IBOutlet weak var nationalityLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
